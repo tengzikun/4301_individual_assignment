@@ -11,6 +11,7 @@ import Admission from './page/admission';
 import Home from './page/home';
 import NavBar from './page/navbar';
 import Academic from './page/academic';
+import Login from './page/login';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='/admission' element={<Admission />} />
           <Route path='/home' element={<Home />} />
           <Route path='/academic' element={<Academic />} />
+          <Route path='/login' element={<Login />} />
         </Routes>
       </Router>
   );

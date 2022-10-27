@@ -10,6 +10,8 @@ const NavBar = () => {
     width: 150,
     height: 65
   };
+
+
   return (
     <nav className='navbar bg-primary'>
       <h1>
@@ -19,6 +21,7 @@ const NavBar = () => {
       </h1>
       <ul>
         <li>
+        <Link to='/login'>Login</Link>
           <Link to='/home'>Home</Link>
           <Link to='/admission'>Admission</Link>
           <Link to='/academic'>Academic</Link>
