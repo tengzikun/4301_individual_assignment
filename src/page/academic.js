@@ -30,10 +30,10 @@ const Academic = () => {
     textAlign: 'centre'
   };
   const rows = [
-    createData('Programming Methodology', 'CS1010'),
-    createData('Programming Methodology II', 'CS2030'),
-    createData('Data Structures and Algorithms', 'CS2040'),
-    createData('Business and Technical Communication', 'IS2101'),
+    createData('Introduction to Business Analytics', 'BT1101'),
+    createData('Econometrics Modelling for Business Analytics', 'BT2101'),
+    createData('Data Management and Visualisation', 'BT2102	'),
+    createData('Optimization Methods in Business Analytics','BT2103'),
     createData('Enterprise Systems Architecture and Design', 'IS2103'),
     createData('Information Systems Leadership and Communication', 'IS3103'),
     createData('Calculus with Applications', 'MA1312'),
@@ -58,8 +58,8 @@ const Academic = () => {
         <Table sx={{ minWidth: 650 }} aria-label='simple table'>
           <TableHead>
             <TableRow>
-              <TableCell>Module Code</TableCell>
               <TableCell>Module Title</TableCell>
+              <TableCell>Module Code</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
